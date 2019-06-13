@@ -1,9 +1,13 @@
 #  Local .terraform directories
 **/.terraform/*
 
-# .tfstate files
+# .tfstate files  (extensions of files whenever terraform executes)
 *.tfstate
 *.tfstate.*
 
 # .tfvars files
 *.tfvars
+
+.DS_Store
+.idea
+
